@@ -4,7 +4,7 @@ public class Main {
         int refill = 1500; //пополнение счета телефона
         double bonus = refill / 100; //бонус за пополнение счета от 1000 руб.
 
-        if (refill >= 1000) {
+        if (refill > 1000) {
             System.out.println("Ваш текущий баланс " + (mainBalance + refill + bonus) + " рублей");
             System.out.print("Бонусов начислено " + (bonus) + " рублей");
         } else {
@@ -14,3 +14,4 @@ public class Main {
 
     }
 }
+
